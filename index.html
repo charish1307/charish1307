@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Charish Yadavali - Data Science Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0d1117; color: #c9d1d9; }
+        header { background: linear-gradient(135deg, #1f6feb, #388bfd); padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 2.8em; color: white; margin-bottom: 10px; }
+    header p { font-size: 1.2em; color: #cce5ff; margin-bottom: 20px; }
+        .badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+    .badge { background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 20px; font-size: 0.9em; }
+    .links { margin-top: 20px; display: flex; gap: 15px; justify-content: center; }
+    .links a { color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 8px 20px; border-radius: 6px; transition: 0.3s; }
+    .links a:hover { background: rgba(255,255,255,0.35); }
+    section { max-width: 1100px; margin: 50px auto; padding: 0 20px; }
+    h2 { font-size: 1.8em; color: #58a6ff; border-bottom: 2px solid #21262d; padding-bottom: 10px; margin-bottom: 30px; }
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 24px; transition: 0.3s; }
+    .card:hover { border-color: #58a6ff; transform: translateY(-4px); }
+    .card h3 { color: #f0f6fc; margin-bottom: 8px; font-size: 1.1em; }
+        .card p { color: #8b949e; font-size: 0.9em; line-height: 1.5; margin-bottom: 14px; }
+    .card a { color: #58a6ff; text-decoration: none; font-size: 0.9em; }
+    .tag { display: inline-block; background: #21262d; color: #79c0ff; font-size: 0.75em; padding: 3px 8px; border-radius: 4px; margin: 2px; }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skill { background: #21262d; border: 1px solid #30363d; padding: 8px 16px; border-radius: 6px; font-size: 0.9em; color: #79c0ff; }
+    footer { text-align: center; padding: 40px; color: #8b949e; border-top: 1px solid #21262d; margin-top: 60px; }
+  </style>
+    </head>
+    <body>
+      <header>
+        <h1>Charish Yadavali</h1>
+        <p>Data Science & Machine Learning Graduate Student</p>
+        <div class="badges">
+          <span class="badge">University of Massachusetts Dartmouth</span>
+          <span class="badge">Python | R | Apache Spark</span>
+          <span class="badge">ML & Data Mining</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/charish1307">GitHub</a>
+          <a href="https://www.linkedin.com/in/charishyadavali">LinkedIn</a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Featured Projects</h2>
+        <div class="projects">
+          <div class="card">
+            <h3>Diagnosing the Future: Diabetes Prediction</h3>
+        <p>Machine Learning approach to predicting diabetes using the Pima Indians dataset. Compared Logistic Regression, Decision Trees, and Random Forest classifiers.</p>
+            <div><span class="tag">R</span><span class="tag">Machine Learning</span><span class="tag">Healthcare</span></div><br/>
+            <a href="https://github.com/charish1307/BUSINESS-ANALYTICS-AND-DATA-MINING-Project">View on GitHub &rarr;</a>
+          </div>
+          <div class="card">
+            <h3>Skin Care Products: EDA & Sentiment Analysis</h3>
+        <p>NLP-driven analysis of skincare product reviews. Used TextBlob and NLTK to classify sentiments and visualize trends using word clouds and distribution charts.</p>
+            <div><span class="tag">Python</span><span class="tag">NLP</span><span class="tag">Sentiment Analysis</span></div><br/>
+            <a href="https://github.com/charish1307/ADVANCED-DATA-MINING-PROJECT">View on GitHub &rarr;</a>
+          </div>
+          <div class="card">
+            <h3>Parallel Transaction Processing with Apache Spark</h3>
+            <p>Comparative study of serial vs parallel computing for financial data. Demonstrated significant speedup using PySpark distributed processing.</p>
+            <div><span class="tag">PySpark</span><span class="tag">Big Data</span><span class="tag">Performance</span></div><br/>
+            <a href="https://github.com/charish1307/Parallel-Transaction-Processing-with-Apache-Spark">View on GitHub &rarr;</a>
+          </div>
+          <div class="card">
+            <h3>Skin Care ML Pipelines</h3>
+        <p>End-to-end Scikit-learn ML pipelines for skincare product analysis. Automated preprocessing, feature engineering, and model optimization with GridSearchCV.</p>
+        <div><span class="tag">Scikit-learn</span><span class="tag">ML Pipelines</span><span class="tag">Python</span></div><br/>
+        <a href="https://github.com/charish1307/SKIN-CARE-PRODUCTS-EDA-AND-SENTIMENT-ANALYSIS">View on GitHub &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills & Technologies</h2>
+        <div class="skills">
+          <span class="skill">Python</span><span class="skill">R</span><span class="skill">Apache Spark</span>
+          <span class="skill">Jupyter Notebook</span><span class="skill">Scikit-learn</span><span class="skill">Pandas</span>
+          <span class="skill">NumPy</span><span class="skill">Matplotlib</span><span class="skill">Seaborn</span>
+          <span class="skill">NLTK / TextBlob</span><span class="skill">Machine Learning</span><span class="skill">NLP</span>
+          <span class="skill">Data Mining</span><span class="skill">EDA</span><span class="skill">GitHub Actions</span>
+        </div>
+      </section>
+
+      <footer>
+        <p>Built with GitHub Pages &bull; <a href="https://github.com/charish1307" style="color:#58a6ff;">github.com/charish1307</a></p>
+      </footer>
+    </body>
+    </html>
